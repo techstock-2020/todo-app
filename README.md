@@ -11,5 +11,5 @@ How to Keep your Fork in Sync with an Upstream Repository: https://www.youtube.c
 
 #Step 2 
 
-create a develop branch and feature branch and work on the feature branch on the forks
+create a feature branch and work on the feature branch on the forks
 review before commit to feature branch
