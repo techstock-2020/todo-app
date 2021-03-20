@@ -1,10 +1,17 @@
-
 Registering application in Google:
 
 https://console.developers.google.com/apis/dashboard?project=eastern-kit-192917&pli=1
 
+Jithin ID used for creating 
 clientId: 382201288117-b894qeo2tu3uapv80m681cafn8535s20.apps.googleusercontent.com
 Secret key : J7Du6nKWaHMzKJY3zFb-1Zwd
 
+https://github.com/settings/applications/1466176
 
-Ref: https://dba-presents.com/index.php/jvm/java/154-google-and-facebook-login-in-one-application
+techstock-2020
+
+Ref: 
+https://spring.io/guides/tutorials/spring-boot-oauth2/ 
+https://dba-presents.com/index.php/jvm/java/154-google-and-facebook-login-in-one-application
+
+
