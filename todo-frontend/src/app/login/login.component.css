@@ -1,0 +1,16 @@
+.mat-card {
+    max-width:500px;
+    margin:auto
+}
+
+.mat-card-actions {
+    display: flex;
+}
+
+.mat-card-actions .felx-spacer {
+    width: 100%;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}

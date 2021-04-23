@@ -1,0 +1,52 @@
+<mat-drawer-container class="container" autosize> 
+  <mat-drawer #drawer  class="sidenav">   
+    <button color="primary" mat-button >one</button>
+    <button color="primary" mat-button >two</button>
+    <button color="primary" mat-button >three</button>
+  </mat-drawer>
+  <div class="sidenav-content">
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+         
+            <button mat-icon-button (click)="drawer.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+  
+            <button mat-button routerLink="/">
+              <mat-icon>home</mat-icon>
+              <span>Todo App</span>
+            </button>
+            
+            <span class="spacer"></span>
+
+            <button mat-button routerLink="/about">About</button>
+
+            <button mat-button routerLink="/contact">Contact</button>
+
+            <button mat-button routerLink="/login">
+              <mat-icon>login</mat-icon>
+              <span>LOGIN</span>
+            </button>
+  
+            <button mat-icon-button [matMenuTriggerFor]="menu" >
+                <mat-icon>more_vert</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button mat-menu-item>
+                  <mat-icon>publish</mat-icon>
+                  <span>Share</span>
+                </button>
+                <button mat-menu-item disabled>
+                  <mat-icon>mode_comment</mat-icon>
+                  <span>comment</span>
+                </button>
+                <button mat-menu-item>
+                  <mat-icon>delete</mat-icon>
+                  <span>Delete</span>
+                </button>
+              </mat-menu>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    </div>
+    <router-outlet></router-outlet>
+</mat-drawer-container>
